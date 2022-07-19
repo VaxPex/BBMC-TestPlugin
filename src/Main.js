@@ -1,4 +1,4 @@
-const PluginStructure = require("../../../src/plugin/PluginStructure");
+const PluginStructure = require(bbmcPath + "plugin/PluginStructure");
 
 class Main extends PluginStructure {
 	successfullyEnabled() {
