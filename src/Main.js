@@ -12,7 +12,7 @@ class Main extends PluginStructure {
 
 	handleEvents() {
 		this.server.eventsHandler.on("join", async (joinEvent) => {
-			this.log.info("Player joining " + joinEvent.player.chainData[2]["extraData"]["displayName"]);
+			this.log.info("Player joining " + joinEvent.player.loginIdentity[2]["extraData"]["displayName"]);
 		});
 	}
 }
